@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'apps.search_job',
     'django_filters',
     'apps.apply_job',
+    'apps.company_details',
 
 ]
 
