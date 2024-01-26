@@ -27,4 +27,5 @@ urlpatterns = [
     path('api/', include('apps.post_job.urls')), 
     path('api/', include('apps.search_job.urls')), 
     path('api/', include('apps.apply_job.urls')), 
+    path('api/', include('apps.get_all_jobs.urls')), 
 ]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

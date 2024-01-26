@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'django_filters',
     'apps.apply_job',
     'apps.company_details',
+    'apps.get_all_jobs',
 
 ]
 
