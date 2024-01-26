@@ -3,4 +3,4 @@ from django.apps import AppConfig
 
 class RegisterUserConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'apps.register_user'
+    name = 'apps.authentication.register_user'

@@ -22,8 +22,8 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('apps.register_user.urls')),  # Include the app's URLs
-    path('api/', include('apps.login_user.urls')), 
+    path('api/', include('apps.authentication.register_user.urls')),  # Include the app's URLs
+    path('api/', include('apps.authentication.login_user.urls')), 
     path('api/', include('apps.post_job.urls')), 
     path('api/', include('apps.search_job.urls')), 
     path('api/', include('apps.apply_job.urls')), 
