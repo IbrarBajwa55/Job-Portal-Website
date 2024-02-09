@@ -49,6 +49,8 @@ INSTALLED_APPS = [
     'apps.apply_job',
     'apps.company_details',
     'apps.get_all_jobs',
+    'apps.job.latest_jobs',
+
 
 ]
 
