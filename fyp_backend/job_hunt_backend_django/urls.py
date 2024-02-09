@@ -24,9 +24,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('apps.authentication.register_user.urls')),  # Include the app's URLs
     path('api/', include('apps.authentication.login_user.urls')), 
-    path('api/', include('apps.post_job.urls')), 
-    path('api/', include('apps.search_job.urls')), 
-    path('api/', include('apps.apply_job.urls')), 
-    path('api/', include('apps.get_all_jobs.urls')), 
+    path('api/', include('apps.job.post_job.urls')), 
+    path('api/', include('apps.job.search_job.urls')), 
+    path('api/', include('apps.job.apply_job.urls')), 
+    path('api/', include('apps.job.get_all_jobs.urls')), 
     path('api/', include('apps.job.latest_jobs.urls')), 
 ]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

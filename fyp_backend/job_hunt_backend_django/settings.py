@@ -43,12 +43,12 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'apps.authentication.register_user',
     'apps.authentication.login_user',
-    'apps.post_job',
-    'apps.search_job',
+    'apps.job.post_job',
+    'apps.job.search_job',
     'django_filters',
-    'apps.apply_job',
+    'apps.job.apply_job',
     'apps.company_details',
-    'apps.get_all_jobs',
+    'apps.job.get_all_jobs',
     'apps.job.latest_jobs',
 
 

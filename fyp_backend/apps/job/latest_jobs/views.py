@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from apps.post_job.models import PostJob
+from apps.job.post_job.models import PostJob
 from .serializers import GetAllJobsSerializer
 from rest_framework.generics import ListAPIView
 # Create your views here.

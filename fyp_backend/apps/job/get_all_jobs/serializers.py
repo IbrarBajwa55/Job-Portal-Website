@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from apps.post_job.models import PostJob
+from apps.job.post_job.models import PostJob
 
 class GetAllJobsSerializer(serializers.ModelSerializer):
   class Meta:

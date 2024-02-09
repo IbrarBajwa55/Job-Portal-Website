@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class ApplyJobConfig(AppConfig):
+class SearchJobConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'apps.apply_job'
+    name = 'apps.job.search_job'
