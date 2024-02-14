@@ -5,6 +5,8 @@ from rest_framework import routers
 
 router= routers.DefaultRouter()
 router.register(r'categories', CategoryViewSet)
+# categories/{category_id}/total_jobs/  for no of jobs
+
 
 
 urlpatterns = [    
