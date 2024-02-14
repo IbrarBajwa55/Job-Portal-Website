@@ -94,7 +94,7 @@ WSGI_APPLICATION = 'job_hunt_backend_django.wsgi.application'
 DATABASES = {
      'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': "authentication_db",
+        'NAME': "job_portal",
         "HOST" :'127.0.0.1',
         "PORT":3306,
         "USER": 'root',
