@@ -47,7 +47,8 @@ INSTALLED_APPS = [
     'apps.job.search_job',
     'django_filters',
     'apps.job.apply_job',
-    'apps.company_details',
+    'apps.company.company_details',
+    'apps.company.company_joblist',
     'apps.job.get_all_jobs',
     'apps.job.latest_jobs',
     'apps.category.category_crud'
@@ -94,7 +95,7 @@ WSGI_APPLICATION = 'job_hunt_backend_django.wsgi.application'
 DATABASES = {
      'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': "job_portal",
+        'NAME': "job_portal_db",
         "HOST" :'127.0.0.1',
         "PORT":3306,
         "USER": 'root',

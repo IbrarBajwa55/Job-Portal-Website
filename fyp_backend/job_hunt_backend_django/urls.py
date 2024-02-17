@@ -29,5 +29,8 @@ urlpatterns = [
     path('api/', include('apps.job.apply_job.urls')), 
     path('api/', include('apps.job.get_all_jobs.urls')), 
     path('api/', include('apps.job.latest_jobs.urls')), 
-    path('api/v1/', include('apps.category.category_crud.urls')), 
+    path('api/v1/', include('apps.category.category_crud.urls')),
+    path('api/', include('apps.company.company_details.urls')), 
+     path('api/', include('apps.company.company_joblist.urls')), 
+
 ]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

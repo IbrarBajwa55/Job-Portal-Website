@@ -18,7 +18,7 @@ class CategoryViewSet(viewsets.ModelViewSet):
             total_jobs = PostJob.objects.filter(job_category=category).count()
             return Response({'total_jobs': total_jobs})
         except Exception as e:
-            print(e)
+            # print(e)
             return Response({
                 'message':'Category might not exists !! Error'
             })

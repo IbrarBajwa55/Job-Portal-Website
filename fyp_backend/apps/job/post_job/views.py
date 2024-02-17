@@ -13,6 +13,3 @@ class PostJobView(APIView):
       return Response({'msg':'Job Posted Successfully', 'status':'success', 'candidate':serializer.data}, status=status.HTTP_201_CREATED)
     return Response(serializer.errors)
   
-
-
-
